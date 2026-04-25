@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavandera | Premium Laundry Service</title>
+    <!-- Use Google Fonts (Outfit for headings, Inter for body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for high-quality icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Link the CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Menu -->
+    <nav class="navbar new-nav">
+        <div class="nav-container">
+            <a href="#" class="logo-container">
+                <img src="logo.png" alt="Lavandera Logo" class="logo new-nav-logo">
+                <span class="logo-text new-logo">Lavandera</span>
+            </a>
+            <ul class="nav-links new-nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn btn-book">Book Now</a>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page / Hero Section -->
+    <section id="home" class="hero new-hero">
+        <div class="hero-container">
+            <!-- Left Side Data -->
+            <div class="hero-content-left">
+                <div class="pill-badge">
+                    <i class="fas fa-gem"></i> PRISTINE CARE GUARANTEED
+                </div>
+                <h1>Professional<br>Laundry you<br>can <strong>TRUST</strong></h1>
+                <p>We provide fast, reliable, and affordable laundry services. Enjoy spotlessly clean results at
+                    affordable prices.</p>
+                <div class="hero-buttons">
+                    <a href="#hiw" class="btn btn-solid-white">How It Works</a>
+                    <a href="#pricing" class="btn btn-hero-outline">View Pricing</a>
+                    <a href="#why-us" class="btn btn-hero-text-link">Why Choose Us?</a>
+                </div>
+
+                <div class="trust-indicators">
+                    <div class="avatars">
+                        <img src="https://ui-avatars.com/api/?name=A&background=random" alt="User">
+                        <img src="https://ui-avatars.com/api/?name=R&background=random" alt="User" class="overlap">
+                        <img src="https://ui-avatars.com/api/?name=J&background=random" alt="User" class="overlap">
+                    </div>
+                    <div class="trust-text">
+                        <strong>2,500+ Happy Clients</strong>
+                        <span>Trusted by families and professionals</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side Graphic Showcase -->
+            <div class="hero-image-right">
+                <div class="glass-card">
+                    <img src="washer.png" alt="Premium Washing Machine" class="hero-washer-img">
+
+                    <div class="floating-badge">
+                        <div class="badge-text">
+                            <span class="badge-subtitle">SAME DAY DELIVERY</span>
+                            <span class="badge-title">Express Wash & Fold</span>
+                        </div>
+                        <div class="badge-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- Decorative background shapes -->
+                <div class="hero-shape shape-right"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Bar -->
+    <section class="stats-bar">
+        <div class="container stats-bar-container">
+            <div class="stat-item">
+                <h3>45min</h3>
+                <p>QUICK TURNAROUND</p>
+            </div>
+            <div class="stat-item">
+                <h3>100%</h3>
+                <p>ECO-FRIENDLY</p>
+            </div>
+            <div class="stat-item">
+                <h3>Free</h3>
+                <p>PICK-UP & DELIVERY</p>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="why-choose-us section-padding">
+        <div class="container">
+            <div class="section-title centered-title">
+                <h2>Why Choose Us?</h2>
+                <p>Here's why customers trust us with their laundry needs.</p>
+            </div>
+
+            <div class="why-us-grid">
+                <!-- High-Quality Cleaning -->
+                <div class="why-us-card">
+                    <div class="wu-icon-box"><i class="fas fa-wand-magic-sparkles"></i></div>
+                    <h3>High-Quality Cleaning</h3>
+                    <p>We ensure every item is thoroughly cleaned with care, keeping your clothes fresh and
+                        well-maintained.</p>
+                </div>
+
+                <!-- Fast & Reliable Service -->
+                <div class="why-us-card">
+                    <div class="wu-icon-box"><i class="fas fa-clock"></i></div>
+                    <h3>Fast & Reliable Service</h3>
+                    <p>Enjoy quick turnaround times with consistent and dependable service every time.</p>
+                </div>
+
+                <!-- Affordable Pricing -->
+                <div class="why-us-card">
+                    <div class="wu-icon-box"><i class="fas fa-tags"></i></div>
+                    <h3>Affordable Pricing</h3>
+                    <p>Quality laundry services at prices that fit your budget — no hidden fees.</p>
+                </div>
+
+                <!-- Convenient Pickup & Delivery -->
+                <div class="why-us-card">
+                    <div class="wu-icon-box"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>Convenient Pickup & Delivery</h3>
+                    <p>Save time with our hassle-free door-to-door laundry service.</p>
+                </div>
+
+                <!-- Eco-Friendly Process -->
+                <div class="why-us-card">
+                    <div class="wu-icon-box"><i class="fas fa-leaf"></i></div>
+                    <h3>Eco-Friendly Process</h3>
+                    <p>We use safe and efficient cleaning methods that are gentle on fabrics and the environment.</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="wu-icon-box"><i class="fas fa-stopwatch"></i></div>
+                    <h3>Time-Saving Service</h3>
+                    <p>We help you save time by providing fast and efficient laundry services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Section -->
+    <section id="services" class="services section-padding full-redesign-section">
+        <div class="container">
+            <div class="section-header-left">
+                <h2>Our Services</h2>
+                <div class="header-underline"></div>
+            </div>
+
+            <div class="services-grid new-services-grid">
+                <!-- Washing Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-soap"></i></div>
+                    <h3>Washing</h3>
+                    <p>Eco-friendly washing techniques to preserve color and texture for every garment.</p>
+                </div>
+
+                <!-- Dry  Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-spray-can"></i></div>
+                    <h3>Dry</h3>
+                    <p>Specialized care for delicate fabrics, removing stains without water-based processing.</p>
+                </div>
+
+                <!-- fold  Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-spray-can"></i></div>
+                    <h3>Fold</h3>
+                    <p>Specialized care for delicate fabrics, removing stains without water-based processing.</p>
+                </div>
+
+                <!-- Ironing Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-tshirt"></i></div>
+                    <h3>Ironing</h3>
+                    <p>Crisp, wrinkle-free finishing using steam technology for that sharp professional look.</p>
+                </div>
+
+                <!-- Dry Cleaning Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-spray-can"></i></div>
+                    <h3>Dry Cleaning</h3>
+                    <p>Specialized care for delicate fabrics, removing stains without water-based processing.</p>
+                </div>
+
+                <!-- Pickup & Delivery Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-truck"></i></div>
+                    <h3>Pickup & Delivery</h3>
+                    <p>Ultimate convenience delivered to your door. Schedule your time, we handle the rest.</p>
+                </div>
+            </div>
+
+            <!-- Special Service -->
+            <div class="section-header-left" style="margin-top: 60px;">
+                <h2>Special Services</h2>
+                <div class="header-underline"></div>
+            </div>
+
+            <div class="services-grid new-services-grid">
+                <!-- Hand Wash Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-hands-bubbles"></i></div>
+                    <h3>Hand Wash</h3>
+                    <p>Gentle cleaning for delicate fabrics and garments that require extra care.</p>
+                </div>
+
+                <!-- Comforter & Blanket Cleaning Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-bed"></i></div>
+                    <h3>Comforter & Blanket Cleaning</h3>
+                    <p>Deep cleaning for bulky items like comforters, blankets, and bedding.</p>
+                </div>
+
+                <!-- Delicate Garment Care Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-gem"></i></div>
+                    <h3>Delicate Garment Care</h3>
+                    <p>Special handling for fabrics such as silk, wool, and lace.</p>
+                </div>
+
+                <!-- Curtain & Drapes Cleaning Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-scroll"></i></div>
+                    <h3>Curtain & Drapes Cleaning</h3>
+                    <p>Thorough cleaning for curtains and large fabric items to remove dust and odors.</p>
+                </div>
+            </div>
+
+            <!-- Add-ons Section -->
+            <div class="section-header-left" style="margin-top: 60px;">
+                <h2>Premium Add-ons</h2>
+                <div class="header-underline"></div>
+            </div>
+
+            <div class="services-grid new-services-grid">
+                <!-- Fabric Conditioner Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-wind"></i></div>
+                    <h3>Fabric Conditioner</h3>
+                    <p>Softer, fresher clothes with our premium conditioning treatment.</p>
+                </div>
+
+                <!-- Fragrance Boost Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-spray-can"></i></div>
+                    <h3>Fragrance Boost</h3>
+                    <p>Long-lasting scent that keeps your garments smelling fresh for weeks.</p>
+                </div>
+
+                <!-- Stain Remover Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-eraser"></i></div>
+                    <h3>Stain Remover</h3>
+                    <p>Advanced treatment for tough, stubborn stains that regular washing can't reach.</p>
+                </div>
+
+                <!-- Separate Wash Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-divide"></i></div>
+                    <h3>Separate Wash</h3>
+                    <p>Avoid mixing with other laundry to ensure the ultimate hygiene and care.</p>
+                </div>
+
+                <!-- Express Service Card -->
+                <div class="new-service-card">
+                    <div class="ns-icon-box"><i class="fas fa-bolt"></i></div>
+                    <h3>Express Service</h3>
+                    <p>Faster processing time for those urgent laundry needs without compromising quality.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- How It Works Section -->
+    <section id="hiw" class="how-it-works section-padding">
+        <div class="container">
+            <div class="section-title centered-title">
+                <h2>How It Works</h2>
+                <p>Our seamless process makes getting your laundry done a breeze. Here's how Lavandera works in four
+                    simple steps:</p>
+            </div>
+
+            <div class="hiw-grid">
+                <!-- Step 1 -->
+                <div class="hiw-card">
+                    <div class="hiw-step-number">1</div>
+                    <div class="hiw-image-box">
+                        <img src="h-i-w/phone.jpg" alt="Place Order Online">
+                    </div>
+                    <div class="hiw-content-box">
+                        <h3>Place Order Online</h3>
+                        <p>Customer books laundry services through our website.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="hiw-card">
+                    <div class="hiw-step-number">2</div>
+                    <div class="hiw-image-box">
+                        <img src="h-i-w/computer.jpg" alt="Admin Processes Order">
+                    </div>
+                    <div class="hiw-content-box">
+                        <h3>Admin Processes Order</h3>
+                        <p>Admin processes the order in our local system.</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="hiw-card">
+                    <div class="hiw-step-number">3</div>
+                    <div class="hiw-image-box">
+                        <img src="h-i-w/tao.jpg" alt="We Pick Up & Clean">
+                    </div>
+                    <div class="hiw-content-box">
+                        <h3>We Pick Up & Clean</h3>
+                        <p>Our team picks up your laundry and cleans them carefully.</p>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="hiw-card">
+                    <div class="hiw-step-number">4</div>
+                    <div class="hiw-image-box">
+                        <img src="h-i-w/trash.jpg" alt="Deliver Clean Clothes">
+                    </div>
+                    <div class="hiw-content-box">
+                        <h3>Deliver Clean Clothes</h3>
+                        <p>We deliver your freshly cleaned clothes back to you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing & Packages Section -->
+    <section id="pricing" class="pricing-packages section-padding">
+        <div class="container">
+            <div class="section-title centered-title">
+                <h2>Pricing & Packages</h2>
+                <div class="pricing-toggle-container">
+                    <div class="pricing-toggle">
+                        <button class="toggle-btn active" data-target="services">Pricing</button>
+                        <button class="toggle-btn" data-target="packages">Packages</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-content">
+                <!-- Services/Pricing View -->
+                <div id="services-view" class="pricing-view active">
+                    <div class="services-container">
+                        <div class="pricing-card services-list-card">
+                            <div class="card-header">
+                                <h3>Pricing</h3>
+                                <p>Select individual services and add-ons with per kilogram pricing.</p>
+                            </div>
+
+                            <div class="services-section">
+                                <h4 class="services-title">Pricing Services</h4>
+
+                                <div class="service-item">
+                                    <div class="item-icon"><i class="fas fa-tint"></i></div>
+                                    <div class="item-info">
+                                        <h5>Wash, Dry & Fold</h5>
+                                        <p>Service with a water base drive away</p>
+                                    </div>
+                                    <div class="item-price">₱45 <span>per kg</span></div>
+                                </div>
+
+                                <div class="service-item">
+                                    <div class="item-icon"><i class="fas fa-tshirt"></i></div>
+                                    <div class="item-info">
+                                        <h5>Dry Cleaning</h5>
+                                        <p>Service with an umbrella for delicate fabrics</p>
+                                    </div>
+                                    <div class="item-price">₱90 <span>per item</span></div>
+                                </div>
+
+                                <div class="service-item">
+                                    <div class="item-icon"><i class="fas fa-stopwatch"></i></div>
+                                    <div class="item-info">
+                                        <h5>Ironing</h5>
+                                        <p>Service with a flatter of petten wear</p>
+                                    </div>
+                                    <div class="item-price">₱35 <span>per kg</span></div>
+                                </div>
+                            </div>
+
+                            <div class="addons-section">
+                                <h4 class="services-title">Add-Ons</h4>
+
+                                <div class="addon-item">
+                                    <div class="item-icon addon-fragrance"><i class="fas fa-wind"></i></div>
+                                    <div class="item-info">
+                                        <h5>Fabric Conditioner</h5>
+                                        <p>Softer, fresher clothes with premium care</p>
+                                    </div>
+                                    <div class="item-price-addon">+₱15</div>
+                                </div>
+
+                                <div class="addon-item">
+                                    <div class="item-icon addon-fragrance" style="background: #f3e8ff; color: #a855f7;">
+                                        <i class="fas fa-spray-can"></i>
+                                    </div>
+                                    <div class="item-info">
+                                        <h5>Fragrance Boost</h5>
+                                        <p>Long-lasting premium scent</p>
+                                    </div>
+                                    <div class="item-price-addon">+₱15</div>
+                                </div>
+
+                                <div class="addon-item">
+                                    <div class="item-icon addon-stain"><i class="fas fa-eraser"></i></div>
+                                    <div class="item-info">
+                                        <h5>Stain Removal</h5>
+                                        <p>Treatment for tough, persistent stains</p>
+                                    </div>
+                                    <div class="item-price-addon">+₱25</div>
+                                </div>
+
+                                <div class="addon-item">
+                                    <div class="item-icon addon-express" style="background: #eef2ff; color: #6366f1;"><i
+                                            class="fas fa-divide"></i></div>
+                                    <div class="item-info">
+                                        <h5>Separate Wash</h5>
+                                        <p>Avoid mixing with other laundry items</p>
+                                    </div>
+                                    <div class="item-price-addon">+₱20</div>
+                                </div>
+
+                                <div class="addon-item">
+                                    <div class="item-icon addon-express"><i class="fas fa-bolt"></i></div>
+                                    <div class="item-info">
+                                        <h5>Express Service</h5>
+                                        <p>Faster processing for urgent needs</p>
+                                    </div>
+                                    <div class="item-price-addon">+₱40</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Illustration or additional decorative card can go here -->
+                        <div class="services-promo-card">
+                            <img src="washer.png" alt="Washer" class="promo-img">
+                            <div class="promo-text">
+                                <h4>Quality Guaranteed</h4>
+                                <p>We take pride in making your clothes look brand new.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Packages View -->
+                <div id="packages-view" class="pricing-view">
+                    <div class="packages-container">
+                        <div class="packages-intro">
+                            <h3>Packages</h3>
+                            <p>Save more with our bundled deals.</p>
+                        </div>
+
+                        <div class="packages-grid">
+                            <!-- Basic Package -->
+                            <div class="package-card">
+                                <div class="package-price-badge">₱299</div>
+                                <h4>Basic</h4>
+                                <div class="package-weight">Up to 5 kg</div>
+                                <ul class="package-features">
+                                    <li><i class="fas fa-check"></i> Wash & Fold</li>
+                                    <li><i class="fas fa-check"></i> Wash & Fold + Ironing</li>
+                                    <li><i class="fas fa-check"></i> Free Pickup</li>
+                                </ul>
+                                <div class="package-bottom-info">
+                                    <i class="fas fa-check"></i> 5 kg Limit
+                                </div>
+                                <a href="#contact"><button class="btn btn-choose-plan"> Choose Plan</a></button></a>
+
+                            </div>
+
+                            <!-- Regular Package -->
+                            <div class="package-card popular">
+                                <div class="most-popular-badge">MOST POPULAR</div>
+                                <div class="package-price-badge">₱599</div>
+                                <h4>Regular</h4>
+                                <div class="package-weight">Up to 8 kg</div>
+                                <ul class="package-features">
+                                    <li><i class="fas fa-check"></i> Wash & Fold</li>
+                                    <li><i class="fas fa-check"></i> Wash & Fold + Ironing</li>
+                                    <li><i class="fas fa-check"></i> Fragrance Boost</li>
+                                    <li><i class="fas fa-check"></i> Free Pickup</li>
+                                </ul>
+                                <div class="package-bottom-info">
+                                    <i class="fas fa-check"></i> 8 kg Limit
+                                </div>
+                                <a href="#contact"><button class="btn btn-choose-plan">Choose Plan</button></a>
+                            </div>
+
+                            <!-- Premium Package -->
+                            <div class="package-card premium-card">
+                                <div class="package-price-badge">₱899</div>
+                                <h4>Premium</h4>
+                                <div class="package-weight">Up to 12 kg</div>
+                                <ul class="package-features">
+                                    <li><i class="fas fa-check"></i> All services</li>
+                                    <li><i class="fas fa-check"></i> All add-ons</li>
+                                    <li><i class="fas fa-check"></i> Priority Processing</li>
+                                    <li><i class="fas fa-check"></i> Free Pickup & Delivery</li>
+                                </ul>
+                                <div class="package-bottom-info">
+                                    <i class="fas fa-check"></i> 12 kg Limit
+                                </div>
+                                <a href="#contact"><button class="btn btn-choose-plan">Choose Plan</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section-padding full-redesign-section">
+        <div class="container">
+            <div class="about-grid new-about-grid">
+                <div class="about-text-left">
+                    <div class="section-header-left">
+                        <h2>About Lavandera</h2>
+                        <div class="header-underline"></div>
+                    </div>
+                    <p>Founded on the belief that laundry shouldn't be a burden, Lavandera combines state-of-the-art
+                        technology with the softest artisanal touch. Our mission is to return time to our clients while
+                        ensuring their garments last for generations.</p>
+
+                    <div class="about-sub-items">
+                        <div class="sub-item">
+                            <h4>Eco-Conscious</h4>
+                            <p>We use 100% biodegradable detergents and water recycling systems.</p>
+                        </div>
+                        <div class="sub-item">
+                            <h4>Quality First</h4>
+                            <p>Every item undergoes a 4-point inspection before it leaves our facility.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image-right">
+                    <img src="about-illustration.jfif" alt="Lavandera Care Illustration" class="about-illustration">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section-padding full-redesign-section light-bg-wave">
+        <div class="container">
+            <div class="section-header-left">
+                <h2>Get In Touch</h2>
+                <p>Let us handle the details while you live your life.</p>
+            </div>
+
+            <div class="contact-grid new-contact-grid">
+                <!-- Info Section -->
+                <div class="contact-info-list">
+                    <div class="info-item-new">
+                        <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Headquarters</h4>
+                            <p>123 Pristine Road, Clean District<br>Metro Manila, Philippines 1000</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item-new">
+                        <div class="icon-circle"><i class="fas fa-phone-alt"></i></div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+63707720845<br>Mon-Sat: 7:00 AM - 8:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="info-item-new">
+                        <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@lavandera.ph<br>support@lavandera.ph</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form UI -->
+                <div class="new-contact-form-box">
+                    <form action="#" class="new-form">
+                        <div class="input-group">
+                            <label for="name">FULL NAME</label>
+                            <input type="text" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="input-group">
+                            <label for="email">EMAIL ADDRESS</label>
+                            <input type="email" id="email" placeholder="hello@example.com">
+                        </div>
+                        <div class="input-group">
+                            <label for="message">MESSAGE</label>
+                            <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary-blue submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- New Detailed Footer -->
+    <footer class="new-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="logo-text new-logo blue-text">Lavandera</span>
+                    <p>Redefining laundry excellence with a premium editorial touch. Your fabrics deserve the best care.
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <div class="newsletter-input">
+                        <input type="email" placeholder="Email">
+                        <button><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Lavandera Laundry Excellence. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fas fa-medal"></i></a>
+                    <a href="#"><i class="fas fa-globe"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Hamburger Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navLinksList = document.querySelector('.new-nav-links');
+
+        hamburger.addEventListener('click', () => {
+            navLinksList.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Close menu when clicking a link and handle manual active state
+        const navLinks = document.querySelectorAll('.new-nav-links a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function () {
+                navLinks.forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+                navLinksList.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        // Scroll Spy Functionality
+        const sections = document.querySelectorAll('section[id]');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const scrollY = window.pageYOffset;
+            const checkpoint = scrollY + 150; // Adjust offset for detection
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+
+                if (checkpoint >= sectionTop && checkpoint < sectionTop + sectionHeight) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            if (current) {
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href').includes(current)) {
+                        link.classList.add('active');
+                    }
+                });
+            }
+        });
+
+        // Pricing Toggle Functionality
+        const toggleBtns = document.querySelectorAll('.toggle-btn');
+        const pricingViews = document.querySelectorAll('.pricing-view');
+
+        toggleBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                toggleBtns.forEach(b => b.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+
+                // Switch views
+                const target = btn.getAttribute('data-target');
+                pricingViews.forEach(view => {
+                    if (view.id === `${target}-view`) {
+                        view.classList.add('active');
+                    } else {
+                        view.classList.remove('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
